@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="GameOverStyles.uss" />
+    <ui:VisualElement name="background" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-items: stretch; justify-content: center; width: auto;">
+        <ui:VisualElement name="container" style="width: 100%; background-color: rgba(0, 0, 0, 0.44); align-items: stretch; justify-content: space-around; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; padding-left: 0; padding-right: 0; padding-top: 30px; padding-bottom: 30px;">
+            <ui:Label text="PAUSED" display-tooltip-when-elided="true" name="go-label" style="-unity-text-align: upper-center; font-size: 120%; -unity-font-definition: resource(&apos;Fonts &amp; Materials/Gruesome SDF&apos;); color: rgb(196, 196, 196);" />
+            <ui:VisualElement style="-unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0;">
+                <ui:Button text="Continue Playing" display-tooltip-when-elided="true" name="continue-button" class="primary-buttons" />
+                <ui:Button text="Settings" display-tooltip-when-elided="true" name="settings-button" class="primary-buttons" />
+                <ui:Button text="Main Menu" display-tooltip-when-elided="true" name="mainmenu-button" class="primary-buttons" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

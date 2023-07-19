@@ -1,0 +1,56 @@
+.primary-buttons {
+    color: rgb(255, 255, 255);
+    background-color: rgb(14, 14, 14);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 40px;
+    -unity-font-style: normal;
+    -unity-font-definition: resource('Fonts & Materials/Gruesome SDF');
+}
+
+.main-menu-button {
+    width: 90px;
+    height: 90px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    -unity-background-image-tint-color: rgb(88, 88, 88);
+    background-color: rgb(88, 88, 88);
+    border-left-color: rgb(48, 48, 48);
+    border-right-color: rgb(48, 48, 48);
+    border-top-color: rgb(48, 48, 48);
+    border-bottom-color: rgb(48, 48, 48);
+}
+
+.settings-slider {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    -unity-font-definition: resource('Fonts & Materials/Gruesome SDF');
+    font-size: 25px;
+    justify-content: flex-start;
+}

@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="GameOverStyles.uss" />
+    <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement style="width: 450px; height: 400px; background-color: rgb(14, 14, 14); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); justify-content: space-between;">
+            <ui:Label text="Settings" display-tooltip-when-elided="true" style="font-size: 40px; -unity-font-definition: resource(&apos;Fonts &amp; Materials/Gruesome SDF&apos;); -unity-text-align: upper-center; padding-left: 9px; padding-right: 9px; padding-top: 9px; padding-bottom: 9px; color: rgb(210, 210, 210);" />
+            <ui:VisualElement>
+                <ui:Label text="Quality" display-tooltip-when-elided="true" style="font-size: 30px; -unity-font-definition: resource(&apos;Fonts &amp; Materials/Gruesome SDF&apos;); -unity-text-align: upper-left; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; color: rgb(210, 210, 210);" />
+                <ui:Slider picking-mode="Ignore" value="0" high-value="2" page-size="0" show-input-field="false" inverted="false" name="quality-slider" class="settings-slider" style="margin-left: 10px; margin-right: 10px; margin-top: 5px; margin-bottom: 5px;" />
+                <ui:Label text="Volume" display-tooltip-when-elided="true" style="font-size: 30px; -unity-font-definition: resource(&apos;Fonts &amp; Materials/Gruesome SDF&apos;); -unity-text-align: upper-left; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; color: rgb(210, 210, 210);" />
+                <ui:Slider picking-mode="Ignore" value="42" high-value="0" label="Music" name="music-slider" low-value="-30" class="settings-slider" style="color: rgb(210, 210, 210);" />
+                <ui:Slider picking-mode="Ignore" value="42" high-value="0" label="Sounds" name="sfx-slider" low-value="-30" class="settings-slider" style="color: rgb(210, 210, 210);" />
+            </ui:VisualElement>
+            <ui:VisualElement style="align-items: flex-end;">
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="back-button" class="main-menu-button" style="border-left-width: 5px; border-top-width: 5px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; width: 70px; height: 70px; margin-right: 10px; margin-bottom: 10px;">
+                    <ui:IMGUIContainer style="height: 100%; background-image: url(&apos;/Assets/UIAssets/Sprites/previous.png#previous&apos;); -unity-background-scale-mode: scale-to-fit; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;" />
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
